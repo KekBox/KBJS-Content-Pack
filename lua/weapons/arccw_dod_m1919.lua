@@ -26,13 +26,13 @@ SWEP.ViewModel = "models/weapons/arccw/c_dod_m1919.mdl"
 SWEP.WorldModel = "models/weapons/arccw/w_dod_m1919.mdl"
 SWEP.ViewModelFOV = 54
 
-SWEP.Damage = 65
-SWEP.DamageMin = 30 -- damage done at maximum range
-SWEP.Range = 200 -- in METRES
-SWEP.Penetration = 10
+SWEP.Damage = 50
+SWEP.DamageMin = 80 -- damage done at maximum range
+SWEP.Range = 50 -- in METRES
+SWEP.Penetration = 100
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
-SWEP.MuzzleVelocity = 850 -- projectile or phys bullet muzzle velocity
+SWEP.MuzzleVelocity = 2000 -- projectile or phys bullet muzzle velocity
 -- IN M/S
 
 SWEP.TracerNum = 1 -- tracer every X
@@ -59,7 +59,7 @@ SWEP.Firemodes = {
 SWEP.NPCWeaponType = "weapon_rpg"
 SWEP.NPCWeight = 50
 
-SWEP.AccuracyMOA = 8 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 4 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 700 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 400
 
@@ -189,17 +189,6 @@ SWEP.Attachments = {
         Slot = {"dod_m1919_bipod"},
         InstalledEles = {"bipod"},
         Installed = "dod_m1919_bipod",
-    },
-    {
-        PrintName = "Tactical",
-        Slot = "tac",
-        Bone = "ValveBiped._30cal_base",
-        Offset = {
-            vpos = Vector(-1.9, 1, 16.75), -- offset that the attachment will be relative to the bone
-            vang = Angle(90, 0, -90),
-            wpos = Vector(19.75, -0.401, -3.286),
-            wang = Angle(-10, 0, 90)
-        },
     },
     {
         PrintName = "Fire Group",

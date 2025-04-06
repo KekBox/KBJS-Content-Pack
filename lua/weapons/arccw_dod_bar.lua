@@ -25,10 +25,10 @@ SWEP.ViewModel = "models/weapons/arccw/c_dod_bar.mdl"
 SWEP.WorldModel = "models/weapons/arccw/w_dod_bar.mdl"
 SWEP.ViewModelFOV = 54
 
-SWEP.Damage = 42
-SWEP.DamageMin = 28 -- damage done at maximum range
-SWEP.Range = 100 -- in METRES
-SWEP.Penetration = 12
+SWEP.Damage = 50
+SWEP.DamageMin = 80 -- damage done at maximum range
+SWEP.Range = 40 -- in METRES
+SWEP.Penetration = 70
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
 SWEP.MuzzleVelocity = 1100 -- projectile or phys bullet muzzle velocity
@@ -44,11 +44,11 @@ SWEP.ExtendedClipSize = 40
 SWEP.ReducedClipSize = 10
 
 SWEP.Recoil = 1
-SWEP.RecoilSide = 0.8
+SWEP.RecoilSide = 0.75
 SWEP.VisualRecoilMult = 1
 SWEP.RecoilRise = 1
 
-SWEP.Delay = 60 / 550 -- 60 / RPM.
+SWEP.Delay = 60 / 600 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
 SWEP.Firemodes = {
     {
@@ -58,7 +58,7 @@ SWEP.Firemodes = {
     {
         Mode = 2,
         PrintName = "SLOW",
-        Mult_RPM = 0.63,
+        Mult_RPM = 0.6,
         Mult_Recoil = 0.7,
         Mult_RecoilSide = 0.7
     },
@@ -73,7 +73,7 @@ SWEP.Firemodes = {
 SWEP.NPCWeaponType = "weapon_ar2"
 SWEP.NPCWeight = 100
 
-SWEP.AccuracyMOA = 12 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 2 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 800 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 150
 
@@ -94,7 +94,7 @@ SWEP.ShellScale = 1.5
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
 
-SWEP.SpeedMult = 0.8
+SWEP.SpeedMult = 0.7
 SWEP.SightedSpeedMult = 0.65
 SWEP.SightTime = 0.35
 
@@ -135,7 +135,7 @@ SWEP.HolsterAng = Angle(-7.036, 30.016, 0)
 SWEP.BarrelOffsetSighted = Vector(0, 0, -1)
 SWEP.BarrelOffsetHip = Vector(2, 0, -2)
 
-SWEP.BarrelLength = 32
+SWEP.BarrelLength = 40
 
 SWEP.ExtraSightDist = 5
 
@@ -185,7 +185,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Underbarrel",
-        Slot = {"foregrip", "ubgl"},
+        Slot = {"", ""},
         Bone = "ValveBiped.bar_base",
         Offset = {
             vpos = Vector(-0.35, -0.125, 17.5),
@@ -208,7 +208,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Tactical",
-        Slot = "tac",
+        Slot = "",
         Bone = "ValveBiped.bar_base",
         Offset = {
             vpos = Vector(-1.85, 0.25, 28), -- offset that the attachment will be relative to the bone
@@ -219,15 +219,15 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Ammo Type",
-        Slot = "ammo_bullet"
+        Slot = ""
     },
     {
         PrintName = "Perk",
-        Slot = "perk"
+        Slot = ""
     },
     {
         PrintName = "Charm",
-        Slot = "charm",
+        Slot = "",
         FreeSlot = true,
         Bone = "ValveBiped.bar_base",
         Offset = {
@@ -267,7 +267,7 @@ SWEP.Animations = {
     },
     ["reload"] = {
         Source = "up_reload_tactical",
-        Time = 2.5,
+        Time = 3.4,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         Framerate = 37,
         Checkpoints = {28, 38, 69},

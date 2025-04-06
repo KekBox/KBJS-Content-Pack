@@ -25,9 +25,9 @@ SWEP.ViewModel = "models/weapons/arccw/c_dod_mp40.mdl"
 SWEP.WorldModel = "models/weapons/arccw/w_dod_mp40.mdl"
 SWEP.ViewModelFOV = 54
 
-SWEP.Damage = 28
-SWEP.DamageMin = 16 -- damage done at maximum range
-SWEP.Range = 50 -- in METRES
+SWEP.Damage = 35
+SWEP.DamageMin = 33 -- damage done at maximum range
+SWEP.Range = 40 -- in METRES
 SWEP.Penetration = 4
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
@@ -43,9 +43,9 @@ SWEP.Primary.ClipSize = 32 -- DefaultClip is automatically set.
 SWEP.ExtendedClipSize = 48
 SWEP.ReducedClipSize = 20
 
-SWEP.Recoil = 0.45
+SWEP.Recoil = 0.35
 SWEP.RecoilSide = 0.3
-SWEP.RecoilRise = 1
+SWEP.RecoilRise = 0.75
 
 SWEP.Delay = 60 / 550 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
@@ -61,7 +61,7 @@ SWEP.Firemodes = {
 SWEP.NPCWeaponType = "weapon_smg1"
 SWEP.NPCWeight = 70
 
-SWEP.AccuracyMOA = 18 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 8 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 250 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 100
 
@@ -150,7 +150,7 @@ SWEP.Attachments = {
     {
         PrintName = "Optic", -- print name
         DefaultAttName = "Iron Sights",
-        Slot = {"optic_lp", "optic"}, -- what kind of attachments can fit here, can be string or table
+        Slot = {"optic_lp", ""}, -- what kind of attachments can fit here, can be string or table
         Bone = "v_mp40.attachpos", -- relevant bone any attachments will be mostly referring to
         Offset = {
             vpos = Vector(0, -0.5, -2.5),  --Vector(9.6, 2.55, -5.8), 
@@ -187,7 +187,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Tactical",
-        Slot = "tac",
+        Slot = "",
         Bone = "v_mp40.attachpos",
         Offset = {
             vpos = Vector(-0.5, 0, 0),
@@ -210,11 +210,11 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Perk",
-        Slot = "perk"
+        Slot = ""
     },
     {
         PrintName = "Charm",
-        Slot = "charm",
+        Slot = "",
         FreeSlot = true,
         Bone = "v_mp40.attachpos",
         Offset = {

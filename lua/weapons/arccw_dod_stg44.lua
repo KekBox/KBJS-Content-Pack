@@ -26,9 +26,9 @@ SWEP.ViewModel = "models/weapons/arccw/c_dod_stg44.mdl"
 SWEP.WorldModel = "models/weapons/arccw/w_dod_stg44.mdl"
 SWEP.ViewModelFOV = 55
 
-SWEP.Damage = 35
-SWEP.DamageMin = 25 -- damage done at maximum range
-SWEP.Range = 150 -- in METRES
+SWEP.Damage = 45
+SWEP.DamageMin = 35 -- damage done at maximum range
+SWEP.Range = 50 -- in METRES
 SWEP.Penetration = 10
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
@@ -48,7 +48,7 @@ SWEP.Recoil = 0.65
 SWEP.RecoilSide = 0.5
 SWEP.RecoilRise = 1
 
-SWEP.Delay = 60 / 588 -- 60 / RPM.
+SWEP.Delay = 60 / 540 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
 SWEP.Firemodes = {
     {
@@ -65,7 +65,7 @@ SWEP.Firemodes = {
 SWEP.NPCWeaponType = {"weapon_ar2", "weapon_smg1"}
 SWEP.NPCWeight = 200
 
-SWEP.AccuracyMOA = 10 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 6 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 700 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 150
 
@@ -86,7 +86,7 @@ SWEP.ShellScale = 1
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
 
-SWEP.SpeedMult = 0.94
+SWEP.SpeedMult = 0.9
 SWEP.SightedSpeedMult = 0.5
 SWEP.SightTime = 0.33
 SWEP.VisualRecoilMult = 1
@@ -176,7 +176,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Underbarrel",
-        Slot = {"ubgl"},
+        Slot = {""},
         VMScale = Vector(1.2, 1, 1),
         Bone = "ValveBiped.mp44_base",
         Offset = {

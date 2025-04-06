@@ -33,8 +33,8 @@ SWEP.ViewModel = "models/weapons/arccw/c_dod_m1911.mdl"
 SWEP.WorldModel = "models/weapons/arccw/w_dod_m1911.mdl"
 SWEP.ViewModelFOV = 54
 
-SWEP.Damage = 32
-SWEP.DamageMin = 17 -- damage done at maximum range
+SWEP.Damage = 40
+SWEP.DamageMin = 30 -- damage done at maximum range
 SWEP.Range = 40 -- in METRES
 SWEP.Penetration = 3
 SWEP.DamageType = DMG_BULLET
@@ -53,9 +53,9 @@ SWEP.Primary.ClipSize = 7 -- DefaultClip is automatically set.
 SWEP.ExtendedClipSize = 9
 SWEP.ReducedClipSize = 6
 
-SWEP.Recoil = 1.85
+SWEP.Recoil = 1.5
 SWEP.RecoilSide = 0.85
-SWEP.RecoilRise = 2
+SWEP.RecoilRise = 1.5
 
 SWEP.Delay = 60 / 500 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
@@ -71,7 +71,7 @@ SWEP.Firemodes = {
 SWEP.NPCWeaponType = "weapon_pistol"
 SWEP.NPCWeight = 70
 
-SWEP.AccuracyMOA = 13 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 10 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 300 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 200
 
@@ -94,12 +94,12 @@ SWEP.ShellScale = 1.75
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
 
-SWEP.SightTime = 0.175
+SWEP.SightTime = 0.1
 
 SWEP.SpeedMult = 1
 SWEP.SightedSpeedMult = 0.75
 
-SWEP.BarrelLength = 18
+SWEP.BarrelLength = 15
 
 SWEP.BulletBones = { -- the bone that represents bullets in gun/mag
     -- [0] = "bulletchamber",
@@ -184,7 +184,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Tactical",
-        Slot = "tac_pistol",
+        Slot = "",
         Bone = "ValveBiped.attachpos",
         Offset = {
             vpos = Vector(0.17, 0.5, 2),
@@ -195,11 +195,11 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Ammo Type",
-        Slot = "ammo_bullet"
+        Slot = ""
     },
     {
         PrintName = "Perk",
-        Slot = "perk"
+        Slot = ""
     },
 }
 
@@ -213,7 +213,7 @@ SWEP.Animations = {
     },
     ["draw"] = {
         Source = "draw",
-        Time = 0.75,
+        Time = 0.1,
         LHIK = true,
         LHIKIn = 0.3,
         LHIKOut = 0.3,

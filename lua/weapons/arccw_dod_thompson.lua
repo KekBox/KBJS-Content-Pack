@@ -25,9 +25,9 @@ SWEP.ViewModel = "models/weapons/arccw/c_dod_thompson.mdl"
 SWEP.WorldModel = "models/weapons/arccw/w_dod_thompson.mdl"
 SWEP.ViewModelFOV = 60
 
-SWEP.Damage = 34
-SWEP.DamageMin = 20 -- damage done at maximum range
-SWEP.Range = 35 -- in METRES
+SWEP.Damage = 45
+SWEP.DamageMin = 35 -- damage done at maximum range
+SWEP.Range = 50 -- in METRES
 SWEP.Penetration = 3
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
@@ -43,11 +43,11 @@ SWEP.Primary.ClipSize = 30 -- DefaultClip is automatically set.
 SWEP.ExtendedClipSize = 50
 SWEP.ReducedClipSize = 20
 
-SWEP.Recoil = 0.85
-SWEP.RecoilSide = 0.6
-SWEP.RecoilRise = 0.3
+SWEP.Recoil = 0.8
+SWEP.RecoilSide = 0.5
+SWEP.RecoilRise = 0.35
 
-SWEP.Delay = 60 / 750 -- 60 / RPM.
+SWEP.Delay = 60 / 800 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
 SWEP.Firemodes = {
     {
@@ -61,7 +61,7 @@ SWEP.Firemodes = {
 SWEP.NPCWeaponType = "weapon_smg1"
 SWEP.NPCWeight = 200
 
-SWEP.AccuracyMOA = 10 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 12 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 300 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 120
 
@@ -123,7 +123,7 @@ SWEP.HolsterAng = Angle(-7.036, 30.016, 0)
 SWEP.BarrelOffsetSighted = Vector(0, 0, -1)
 SWEP.BarrelOffsetHip = Vector(2, 0, -2)
 
-SWEP.BarrelLength = 26
+SWEP.BarrelLength = 30
 
 SWEP.ExtraSightDist = 5
 
@@ -139,8 +139,8 @@ SWEP.AttachmentElements = {
     ["stock"] = {
         VMBodygroups = {{ind = 3, bg = 1}},
         WMBodygroups = {{ind = 3, bg = 1}},
-        Mult_Recoil = 0.75,
-        Mult_SpeedMult = 0.95,
+        Mult_Recoil = 0.8,
+        Mult_SpeedMult = 0.9,
     },
     ["altirons"] = {
         Override_IronSightStruct = {
@@ -178,7 +178,7 @@ SWEP.Attachments = {
     {
         PrintName = "Optic", -- print name
         DefaultAttName = "Iron Sights",
-        Slot = {"optic", "optic_lp"}, -- what kind of attachments can fit here, can be string or table
+        Slot = {"", "optic_lp"}, -- what kind of attachments can fit here, can be string or table
         Bone = "v_thompson.root2", -- v_thompson, v_thompson.root2, v_thompson.root3, v_thompson.root4, v_thompson.root5
         Offset = {
             vpos = Vector(-6.5, -7.75, 0.05), -- offset that the attachment will be relative to the bone
@@ -232,7 +232,7 @@ SWEP.Attachments = {
     },
     {
         Hidden = true,
-        Slot = {"ubgl"},
+        Slot = {""},
         VMScale = Vector(1.2, 1, 1),
         Bone = "v_thompson.root2",
         Offset = {
@@ -244,7 +244,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Tactical",
-        Slot = "tac",
+        Slot = "",
         Bone = "v_thompson.root2",
         Offset = {
             vpos = Vector(-3, -6.5, -0.6), -- offset that the attachment will be relative to the bone
@@ -267,11 +267,11 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Perk",
-        Slot = "perk"
+        Slot = ""
     },
     {
         PrintName = "Charm",
-        Slot = "charm",
+        Slot = "",
         FreeSlot = true,
         Bone = "v_thompson.root2",
         Offset = {

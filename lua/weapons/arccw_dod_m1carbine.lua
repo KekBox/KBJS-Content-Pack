@@ -27,10 +27,10 @@ SWEP.ViewModel = "models/weapons/arccw/c_dod_m1carbine.mdl"
 SWEP.WorldModel = "models/weapons/arccw/w_dod_m1carbine.mdl"
 SWEP.ViewModelFOV = 54
 
-SWEP.Damage = 32
-SWEP.DamageMin = 22 -- damage done at maximum range
-SWEP.Range = 120 -- in METRES
-SWEP.Penetration = 6
+SWEP.Damage = 35
+SWEP.DamageMin = 30 -- damage done at maximum range
+SWEP.Range = 50 -- in METRES
+SWEP.Penetration = 50
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
 SWEP.MuzzleVelocity = 607 -- projectile or phys bullet muzzle velocity
@@ -45,9 +45,9 @@ SWEP.Primary.ClipSize = 15 -- DefaultClip is automatically set.
 SWEP.ExtendedClipSize = 30
 SWEP.ReducedClipSize = 10
 
-SWEP.Recoil = 0.5
-SWEP.RecoilSide = 0.4
-SWEP.RecoilRise = 1
+SWEP.Recoil = 0.3
+SWEP.RecoilSide = 0.3
+SWEP.RecoilRise = 0.75
 
 SWEP.Delay = 60 / 700 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
@@ -87,7 +87,7 @@ SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
 
 SWEP.SpeedMult = 0.94
 SWEP.SightedSpeedMult = 0.75
-SWEP.SightTime = 0.3
+SWEP.SightTime = 0.2
 SWEP.VisualRecoilMult = 0.75
 SWEP.RecoilRise = 0.5
 
@@ -212,7 +212,7 @@ SWEP.Attachments = {
     },
     {
         Hidden = true,
-        Slot = "ubgl",
+        Slot = "",
         Bone = "ValveBiped.m1_base",
         Offset = {
             vpos = Vector(-1.6, 0.25, 10),
@@ -223,7 +223,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Tactical",
-        Slot = "tac",
+        Slot = "",
         Bone = "ValveBiped.m1_base",
         WMScale = Vector(0.75, 0.75, 0.75),
         Offset = {
@@ -244,11 +244,11 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Perk",
-        Slot = "perk"
+        Slot = ""
     },
     {
         PrintName = "Charm", -- print name
-        Slot = "charm", -- what kind of attachments can fit here, can be string or table
+        Slot = "", -- what kind of attachments can fit here, can be string or table
         FreeSlot = true,
         Bone = "ValveBiped.m1_base", -- relevant bone any attachments will be mostly referring to
         Offset = {
@@ -267,7 +267,7 @@ SWEP.Animations = {
     },
     ["draw"] = {
         Source = "draw",
-        Time = 0.4,
+        Time = 0.7,
         LHIK = true,
         LHIKIn = 0,
         LHIKOut = 0.25,

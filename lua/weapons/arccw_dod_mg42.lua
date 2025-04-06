@@ -25,13 +25,13 @@ SWEP.WorldModel = "models/weapons/arccw/w_dod_mg42.mdl"
 SWEP.ViewModelFOV = 60
 SWEP.DefaultBodygroups = "0000000"
 
-SWEP.Damage = 54
-SWEP.DamageMin = 32 -- damage done at maximum range
-SWEP.Range = 175 -- in METRES
-SWEP.Penetration = 10
+SWEP.Damage = 40
+SWEP.DamageMin = 70 -- damage done at maximum range
+SWEP.Range = 50 -- in METRES
+SWEP.Penetration = 70
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
-SWEP.MuzzleVelocity = 1800 -- projectile or phys bullet muzzle velocity
+SWEP.MuzzleVelocity = 1500 -- projectile or phys bullet muzzle velocity
 -- IN M/S
 
 SWEP.TracerNum = 1 -- tracer every X
@@ -58,7 +58,7 @@ SWEP.Firemodes = {
 SWEP.NPCWeaponType = {"weapon_rpg"}
 SWEP.NPCWeight = 20
 
-SWEP.AccuracyMOA = 12 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 3 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 750 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 400
 
@@ -134,7 +134,7 @@ SWEP.AttachmentElements = {
 }
 
 SWEP.Bipod_Integral = true
-SWEP.BipodRecoil = 0.5
+SWEP.BipodRecoil = 0.2
 SWEP.BipodDispersion = 0.66
 
 SWEP.ShellRotateAngle = Angle(0, 0, 0)
@@ -183,17 +183,6 @@ SWEP.Attachments = {
         Slot = "barrel",
     },
     {
-        PrintName = "Tactical",
-        Slot = "tac",
-        Bone = "ValveBiped.mg42_base",
-        Offset = {
-            vpos = Vector(-2, 0, 12),
-            vang = Angle(90, 0, 0),
-            wpos = Vector(19, 1.5, -5.5),
-            wang = Angle(-10, 0, 180)
-        },
-    },
-    {
         PrintName = "Fire Group",
         Slot = "fcg",
         DefaultAttName = "Standard FCG"
@@ -204,7 +193,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Perk",
-        Slot = {"perk", "lone_wolf"}
+        Slot = {""}
     },
     {
         PrintName = "Charm",

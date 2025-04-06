@@ -86,7 +86,7 @@ SWEP.MuzzleEffect = "muzzleflash_5"
 
 SWEP.MuzzleEffectAttachment = 0 -- which attachment to put the muzzle on
 
-SWEP.SpeedMult = 0.75
+SWEP.SpeedMult = 0.5
 SWEP.SightedSpeedMult = 0.5
 
 SWEP.BulletBones = {
@@ -167,7 +167,7 @@ SWEP.Attachments = {
     {
         PrintName = "Optic", -- print name
         DefaultAttName = "Iron Sights",
-        Slot = {"optic_lp", "optic"}, -- what kind of attachments can fit here, can be string or table
+        Slot = {"", ""}, -- what kind of attachments can fit here, can be string or table
         Bone = "ValveBiped.bazooka_BASE", -- relevant bone any attachments will be mostly referring to
         Offset = {
             vpos = Vector(-5.5, -0.5, -1),
@@ -179,7 +179,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Underbarrel",
-        Slot = {"foregrip", "bipod",},
+        Slot = {"", "",},
         Bone = "ValveBiped.bazooka_BASE",
         Offset = {
             vpos = Vector(-2.401, 0, 8),
@@ -190,11 +190,11 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Ammo Type",
-        Slot = "dod_rocket"
+        Slot = ""
     },
     {
         PrintName = "Perk",
-        Slot = "perk"
+        Slot = ""
     },
 }
 

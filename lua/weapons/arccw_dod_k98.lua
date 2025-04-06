@@ -27,10 +27,10 @@ SWEP.ViewModel = "models/weapons/arccw/c_dod_k98.mdl"
 SWEP.WorldModel = "models/weapons/arccw/w_dod_k98.mdl"
 SWEP.ViewModelFOV = 56
 
-SWEP.Damage = 75
-SWEP.DamageMin = 95 -- damage done at maximum range
+SWEP.Damage = 55
+SWEP.DamageMin = 100 -- damage done at maximum range
 SWEP.Range = 40 -- in METRES
-SWEP.Penetration = 18
+SWEP.Penetration = 70
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
 SWEP.MuzzleVelocity = 1500 -- projectile or phys bullet muzzle velocity
@@ -45,8 +45,8 @@ SWEP.Primary.ClipSize = 5 -- DefaultClip is automatically set.
 SWEP.ExtendedClipSize = 8
 SWEP.ReducedClipSize = 3
 
-SWEP.Recoil = 1
-SWEP.RecoilSide = 0.85
+SWEP.Recoil = 2
+SWEP.RecoilSide = 1.5
 
 SWEP.Delay = 60 / 600 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
@@ -183,7 +183,7 @@ SWEP.Attachments = {
     }, --1
     {
         PrintName = "Backup Optic", -- print name
-        Slot = "backup", -- what kind of attachments can fit here, can be string or table
+        Slot = "", -- what kind of attachments can fit here, can be string or table
         Bone = "ValveBiped.k98_base",
         Offset = {
             vpos = Vector(2.5, 0, -25), -- offset that the attachment will be relative to the bone
@@ -208,7 +208,7 @@ SWEP.Attachments = {
     }, --3
     {
         PrintName = "Underbarrel",
-        Slot = {"foregrip", "bipod"},
+        Slot = {"bipod"},
         Bone = "ValveBiped.k98_base",
         Offset = {
             vpos = Vector(1, 0, -24),
@@ -226,7 +226,7 @@ SWEP.Attachments = {
     }, --4
     {
         PrintName = "Tactical",
-        Slot = "tac",
+        Slot = "",
         Bone = "ValveBiped.k98_base",
         Offset = {
             vpos = Vector(2.099, 0.6, -22.5),
@@ -246,11 +246,11 @@ SWEP.Attachments = {
     }, --6 / 8
     {
         PrintName = "Perk",
-        Slot = "perk"
+        Slot = ""
     }, --7 / 9
     {
         PrintName = "Charm",
-        Slot = "charm",
+        Slot = "",
         FreeSlot = true,
         Bone = "ValveBiped.k98_base",
         Offset = {
@@ -293,7 +293,7 @@ SWEP.Attachments = {
     }, --10 / 12
     {
         Hidden = true,
-        Slot = "ubgl",
+        Slot = "",
         Bone = "ValveBiped.k98_base",
         Offset = {
             vpos = Vector(1, 0, -24),
@@ -397,7 +397,7 @@ SWEP.Animations = {
     },
     ["draw"] = {
         Source = "draw",
-        Time = 1.2,
+        Time = 1.5,
     },
     ["fire"] = {
         Source = "shoot",

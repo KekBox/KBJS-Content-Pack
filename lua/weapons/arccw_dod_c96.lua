@@ -28,9 +28,9 @@ SWEP.ViewModel = "models/weapons/arccw/c_dod_c96.mdl"
 SWEP.WorldModel = "models/weapons/arccw/w_dod_c96.mdl"
 SWEP.ViewModelFOV = 65
 
-SWEP.Damage = 25
-SWEP.DamageMin = 20 -- damage done at maximum range
-SWEP.Range = 75 -- in METRES
+SWEP.Damage = 35
+SWEP.DamageMin = 25 -- damage done at maximum range
+SWEP.Range = 35 -- in METRES
 SWEP.Penetration = 4
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
@@ -67,8 +67,8 @@ SWEP.NPCWeaponType = {"weapon_pistol", "weapon_smg1"}
 SWEP.NPCWeight = 125
 
 SWEP.AccuracyMOA = 20 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
-SWEP.HipDispersion = 300 -- inaccuracy added by hip firing.
-SWEP.MoveDispersion = 350
+SWEP.HipDispersion = 200 -- inaccuracy added by hip firing.
+SWEP.MoveDispersion = 250
 
 SWEP.Primary.Ammo = "pistol" -- what ammo type the gun uses
 SWEP.MagID = "m96" -- the magazine pool this gun draws from
@@ -155,7 +155,7 @@ SWEP.Attachments = {
     { --1
         PrintName = "Optic", -- print name
         DefaultAttName = "Iron Sights",
-        Slot = {"optic", "optic_lp"}, -- what kind of attachments can fit here, can be string or table
+        Slot = {"", ""}, -- what kind of attachments can fit here, can be string or table
         Bone = "ValveBiped.c96_base", -- relevant bone any attachments will be mostly referring to
         Offset = {
             vpos = Vector(-4.60, 0, 2.559), -- offset that the attachment will be relative to the bone
@@ -204,7 +204,7 @@ SWEP.Attachments = {
     },
     { --4
         PrintName = "Tactical",
-        Slot = "tac_pistol",
+        Slot = "",
         Bone = "ValveBiped.c96_base",
         Offset = {
             vpos = Vector(-3.2, 0.52, 5.5),
@@ -229,7 +229,7 @@ SWEP.Attachments = {
     },
     { --9
         PrintName = "Perk",
-        Slot = "perk"
+        Slot = ""
     },
 }
 

@@ -28,10 +28,10 @@ SWEP.ViewModelFOV = 56
 
 SWEP.DefaultBodygroups = "0000000000"
 
-SWEP.Damage = 47
-SWEP.DamageMin = 33 -- damage done at maximum range
-SWEP.Range = 120 -- in METRES
-SWEP.Penetration = 14
+SWEP.Damage = 50
+SWEP.DamageMin = 80 -- damage done at maximum range
+SWEP.Range = 40 -- in METRES
+SWEP.Penetration = 70
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
 SWEP.MuzzleVelocity = 1200 -- projectile or phys bullet muzzle velocity
@@ -164,7 +164,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Backup Optic", -- print name
-        Slot = "backup", -- what kind of attachments can fit here, can be string or table
+        Slot = "", -- what kind of attachments can fit here, can be string or table
         Bone = "ValveBiped.garand_base",
         Offset = {
             vpos = Vector(-3, 0.6, 25),
@@ -189,7 +189,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Underbarrel",
-        Slot = {"foregrip", "bipod"},
+        Slot = {"", "bipod"},
         Bone = "ValveBiped.garand_base",
         Offset = {
             vpos = Vector(-2.25, 0.6, 20),
@@ -207,7 +207,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Tactical",
-        Slot = "tac",
+        Slot = "",
         Bone = "ValveBiped.garand_base",
         Offset = {
             vpos = Vector(-2, 0.6, 28),
@@ -227,11 +227,11 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Perk",
-        Slot = "perk"
+        Slot = ""
     },
     {
         PrintName = "Charm",
-        Slot = "charm",
+        Slot = "",
         FreeSlot = true,
         Bone = "ValveBiped.garand_base",
         Offset = {
@@ -243,7 +243,7 @@ SWEP.Attachments = {
     },
     { -- 10
         Hidden = true,
-        Slot = "ubgl",
+        Slot = "",
         Bone = "ValveBiped.garand_base",
         Offset = {
             vpos = Vector(-2.25, 0.6, 20),
@@ -279,7 +279,7 @@ SWEP.Animations = {
     },
     ["draw"] = {
         Source = "draw",
-        Time = 1,
+        Time = 1.25,
         LHIK = true,
         LHIKIn = 0,
         LHIKOut = 1,
