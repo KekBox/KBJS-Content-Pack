@@ -26,7 +26,7 @@ SWEP.WorldModel = "models/weapons/arccw/w_dod_bar.mdl"
 SWEP.ViewModelFOV = 54
 
 SWEP.Damage = 50
-SWEP.DamageMin = 80 -- damage done at maximum range
+SWEP.DamageMin = 85 -- damage done at maximum range
 SWEP.Range = 40 -- in METRES
 SWEP.Penetration = 70
 SWEP.DamageType = DMG_BULLET
@@ -43,9 +43,9 @@ SWEP.Primary.ClipSize = 20 -- DefaultClip is automatically set.
 SWEP.ExtendedClipSize = 40
 SWEP.ReducedClipSize = 10
 
-SWEP.Recoil = 1
+SWEP.Recoil = 0.75
 SWEP.RecoilSide = 0.75
-SWEP.VisualRecoilMult = 1
+SWEP.VisualRecoilMult = 0.75
 SWEP.RecoilRise = 1
 
 SWEP.Delay = 60 / 600 -- 60 / RPM.
@@ -73,7 +73,7 @@ SWEP.Firemodes = {
 SWEP.NPCWeaponType = "weapon_ar2"
 SWEP.NPCWeight = 100
 
-SWEP.AccuracyMOA = 2 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 1.5 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 800 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 150
 

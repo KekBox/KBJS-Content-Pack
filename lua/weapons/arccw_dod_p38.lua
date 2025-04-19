@@ -26,8 +26,8 @@ SWEP.ViewModel = "models/weapons/arccw/c_dod_p38.mdl"
 SWEP.WorldModel = "models/weapons/arccw/w_dod_p38.mdl"
 SWEP.ViewModelFOV = 65
 
-SWEP.Damage = 25
-SWEP.DamageMin = 20 -- damage done at maximum range
+SWEP.Damage = 35
+SWEP.DamageMin = 30 -- damage done at maximum range
 SWEP.Range = 40 -- in METRES
 SWEP.Penetration = 3
 SWEP.DamageType = DMG_BULLET
@@ -46,9 +46,9 @@ SWEP.Primary.ClipSize = 8 -- DefaultClip is automatically set.
 SWEP.ExtendedClipSize = 12
 SWEP.ReducedClipSize = 6
 
-SWEP.Recoil = 0.85
+SWEP.Recoil = 0.5
 SWEP.RecoilSide = 0.3
-SWEP.RecoilRise = 1.25
+SWEP.RecoilRise = 0.5
 
 SWEP.Delay = 60 / 600 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
@@ -61,7 +61,7 @@ SWEP.Firemodes = {
 SWEP.NPCWeaponType = "weapon_pistol"
 SWEP.NPCWeight = 105
 
-SWEP.AccuracyMOA = 9.5 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 4 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 200 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 250
 
@@ -220,7 +220,7 @@ SWEP.Animations = {
     },
     ["draw"] = {
         Source = "draw",
-        Time = 0.75,
+        Time = 0.1,
         SoundTable = {
             {
             s = "weapons/arccw/usp/usp_draw.wav",

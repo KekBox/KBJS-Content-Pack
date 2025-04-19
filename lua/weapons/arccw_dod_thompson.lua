@@ -25,9 +25,9 @@ SWEP.ViewModel = "models/weapons/arccw/c_dod_thompson.mdl"
 SWEP.WorldModel = "models/weapons/arccw/w_dod_thompson.mdl"
 SWEP.ViewModelFOV = 60
 
-SWEP.Damage = 45
-SWEP.DamageMin = 35 -- damage done at maximum range
-SWEP.Range = 50 -- in METRES
+SWEP.Damage = 40
+SWEP.DamageMin = 30 -- damage done at maximum range
+SWEP.Range = 70 -- in METRES
 SWEP.Penetration = 3
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
@@ -43,9 +43,9 @@ SWEP.Primary.ClipSize = 30 -- DefaultClip is automatically set.
 SWEP.ExtendedClipSize = 50
 SWEP.ReducedClipSize = 20
 
-SWEP.Recoil = 0.8
+SWEP.Recoil = 0.65
 SWEP.RecoilSide = 0.5
-SWEP.RecoilRise = 0.35
+SWEP.RecoilRise = 0.65
 
 SWEP.Delay = 60 / 800 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
@@ -62,7 +62,7 @@ SWEP.NPCWeaponType = "weapon_smg1"
 SWEP.NPCWeight = 200
 
 SWEP.AccuracyMOA = 12 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
-SWEP.HipDispersion = 300 -- inaccuracy added by hip firing.
+SWEP.HipDispersion = 350 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 120
 
 SWEP.Primary.Ammo = "pistol" -- what ammo type the gun uses
@@ -84,8 +84,8 @@ SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
 
 SWEP.SpeedMult = 0.95
 SWEP.SightedSpeedMult = 0.75
-SWEP.SightTime = 0.36
-SWEP.VisualRecoilMult = 1
+SWEP.SightTime = 0.2
+SWEP.VisualRecoilMult = 1.25
 
 SWEP.BulletBones = { -- the bone that represents bullets in gun/mag
     -- [0] = "bulletchamber",
@@ -139,8 +139,8 @@ SWEP.AttachmentElements = {
     ["stock"] = {
         VMBodygroups = {{ind = 3, bg = 1}},
         WMBodygroups = {{ind = 3, bg = 1}},
-        Mult_Recoil = 0.8,
-        Mult_SpeedMult = 0.9,
+        Mult_Recoil = 0.9,
+        Mult_SpeedMult = 0.8,
     },
     ["altirons"] = {
         Override_IronSightStruct = {

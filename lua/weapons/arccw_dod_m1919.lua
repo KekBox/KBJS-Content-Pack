@@ -27,7 +27,7 @@ SWEP.WorldModel = "models/weapons/arccw/w_dod_m1919.mdl"
 SWEP.ViewModelFOV = 54
 
 SWEP.Damage = 50
-SWEP.DamageMin = 80 -- damage done at maximum range
+SWEP.DamageMin = 85 -- damage done at maximum range
 SWEP.Range = 50 -- in METRES
 SWEP.Penetration = 100
 SWEP.DamageType = DMG_BULLET
@@ -40,11 +40,11 @@ SWEP.TracerCol = Color(255, 25, 25)
 SWEP.TracerWidth = 3
 
 SWEP.ChamberSize = 0 -- how many rounds can be chambered.
-SWEP.Primary.ClipSize = 100 -- DefaultClip is automatically set.
+SWEP.Primary.ClipSize = 300 -- DefaultClip is automatically set.
 SWEP.ExtendedClipSize = 200
 SWEP.ReducedClipSize = 50
 
-SWEP.Recoil = 1.6
+SWEP.Recoil = 1.25
 SWEP.RecoilSide = 1
 SWEP.RecoilRise = 1
 
@@ -59,7 +59,7 @@ SWEP.Firemodes = {
 SWEP.NPCWeaponType = "weapon_rpg"
 SWEP.NPCWeight = 50
 
-SWEP.AccuracyMOA = 4 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 3.5 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 700 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 400
 

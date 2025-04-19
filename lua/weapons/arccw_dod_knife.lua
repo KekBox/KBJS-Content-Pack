@@ -24,16 +24,16 @@ SWEP.ViewModelFOV = 54
 
 SWEP.PrimaryBash = true
 SWEP.CanBash = true
-SWEP.MeleeDamage = 20
+SWEP.MeleeDamage = 30
 SWEP.MeleeRange = 32
-SWEP.MeleeTime = 1
+SWEP.MeleeTime = 0.3
 SWEP.MeleeDamageType = DMG_SLASH
 SWEP.MeleeAttackTime = 0.25
 
 SWEP.Melee2 = true
 SWEP.Melee2Damage = 60
 SWEP.Melee2Range = 32
-SWEP.Melee2Time = 1.2
+SWEP.Melee2Time = 0.6
 SWEP.Melee2AttackTime = 0.25
 
 SWEP.MeleeSwingSound = "ArcCW_DOD_Knife.Swing"

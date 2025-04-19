@@ -25,14 +25,14 @@ SWEP.ViewModelFOV = 54
 SWEP.PrimaryBash = true
 SWEP.CanBash = true
 SWEP.MeleeDamage = 40
-SWEP.MeleeRange = 40
-SWEP.MeleeTime = 1.5
+SWEP.MeleeRange = 50
+SWEP.MeleeTime = 1
 SWEP.MeleeDamageType = DMG_SLASH
 SWEP.MeleeAttackTime = 0.25
 
 SWEP.Melee2 = true
-SWEP.Melee2Damage = 85
-SWEP.Melee2Range = 40
+SWEP.Melee2Damage = 90
+SWEP.Melee2Range = 50
 SWEP.Melee2Time = 2
 SWEP.Melee2AttackTime = 0.25
 
