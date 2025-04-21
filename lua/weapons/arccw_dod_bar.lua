@@ -25,7 +25,7 @@ SWEP.ViewModel = "models/weapons/arccw/c_dod_bar.mdl"
 SWEP.WorldModel = "models/weapons/arccw/w_dod_bar.mdl"
 SWEP.ViewModelFOV = 54
 
-SWEP.Damage = 50
+SWEP.Damage = 65
 SWEP.DamageMin = 85 -- damage done at maximum range
 SWEP.Range = 40 -- in METRES
 SWEP.Penetration = 70

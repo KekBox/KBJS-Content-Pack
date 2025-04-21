@@ -27,8 +27,8 @@ SWEP.ViewModel = "models/weapons/arccw/c_dod_k98.mdl"
 SWEP.WorldModel = "models/weapons/arccw/w_dod_k98.mdl"
 SWEP.ViewModelFOV = 56
 
-SWEP.Damage = 55
-SWEP.DamageMin = 100 -- damage done at maximum range
+SWEP.Damage = 75
+SWEP.DamageMin = 110 -- damage done at maximum range
 SWEP.Range = 40 -- in METRES
 SWEP.Penetration = 70
 SWEP.DamageType = DMG_BULLET
