@@ -1,2 +1,2 @@
-# ArcCW-DOD-S
-A DOD:S weapon pack for Garry's Mod based off ArcCW.
+# KBJS Content
+A Content pack containing DOD:S Weapons, PolyTraps, Icons, and a bunch of other stuff
