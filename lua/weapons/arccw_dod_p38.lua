@@ -26,9 +26,10 @@ SWEP.ViewModel = "models/weapons/arccw/c_dod_p38.mdl"
 SWEP.WorldModel = "models/weapons/arccw/w_dod_p38.mdl"
 SWEP.ViewModelFOV = 65
 
-SWEP.Damage = 35
-SWEP.DamageMin = 30 -- damage done at maximum range
-SWEP.Range = 40 -- in METRES
+SWEP.Damage = 40
+SWEP.DamageMin = 35 -- damage done at maximum range
+SWEP.Range = 64 -- in METRES
+SWEP.RangeMin= 32 -- in METRES
 SWEP.Penetration = 3
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any

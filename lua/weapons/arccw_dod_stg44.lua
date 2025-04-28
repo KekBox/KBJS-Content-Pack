@@ -26,10 +26,11 @@ SWEP.ViewModel = "models/weapons/arccw/c_dod_stg44.mdl"
 SWEP.WorldModel = "models/weapons/arccw/w_dod_stg44.mdl"
 SWEP.ViewModelFOV = 55
 
-SWEP.Damage = 55
-SWEP.DamageMin = 45 -- damage done at maximum range
-SWEP.Range = 125 -- in METRES
-SWEP.Penetration = 10
+SWEP.Damage = 50
+SWEP.DamageMin = 55 -- damage done at maximum range
+SWEP.Range = 64 -- in METRES
+SWEP.RangeMin= 32 -- in METRES
+SWEP.Penetration = 50
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
 SWEP.MuzzleVelocity = 1100 -- projectile or phys bullet muzzle velocity

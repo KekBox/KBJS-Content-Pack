@@ -25,9 +25,10 @@ SWEP.ViewModel = "models/weapons/arccw/c_dod_bar.mdl"
 SWEP.WorldModel = "models/weapons/arccw/w_dod_bar.mdl"
 SWEP.ViewModelFOV = 54
 
-SWEP.Damage = 65
-SWEP.DamageMin = 85 -- damage done at maximum range
-SWEP.Range = 40 -- in METRES
+SWEP.Damage = 82
+SWEP.DamageMin =92 -- damage done at maximum range
+SWEP.Range = 64 -- in METRES
+SWEP.RangeMin= 32 -- in METRES
 SWEP.Penetration = 70
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
@@ -73,8 +74,8 @@ SWEP.Firemodes = {
 SWEP.NPCWeaponType = "weapon_ar2"
 SWEP.NPCWeight = 100
 
-SWEP.AccuracyMOA = 1.5 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
-SWEP.HipDispersion = 800 -- inaccuracy added by hip firing.
+SWEP.AccuracyMOA = 2 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.HipDispersion = 400 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 150
 
 SWEP.Primary.Ammo = "ar2" -- what ammo type the gun uses
@@ -94,7 +95,7 @@ SWEP.ShellScale = 1.5
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
 
-SWEP.SpeedMult = 0.7
+SWEP.SpeedMult = 0.8
 SWEP.SightedSpeedMult = 0.65
 SWEP.SightTime = 0.35
 
@@ -219,7 +220,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Ammo Type",
-        Slot = ""
+        Slot = "ammo_bullet"
     },
     {
         PrintName = "Perk",

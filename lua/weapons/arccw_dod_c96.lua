@@ -28,9 +28,9 @@ SWEP.ViewModel = "models/weapons/arccw/c_dod_c96.mdl"
 SWEP.WorldModel = "models/weapons/arccw/w_dod_c96.mdl"
 SWEP.ViewModelFOV = 65
 
-SWEP.Damage = 35
-SWEP.DamageMin = 30 -- damage done at maximum range
-SWEP.Range = 50 -- in METRES
+SWEP.Damage = 40
+SWEP.DamageMin = 35 -- damage done at maximum range
+SWEP.Range = 32 -- in METRES
 SWEP.Penetration = 4
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
@@ -48,8 +48,8 @@ SWEP.Primary.ClipSize = 20 -- DefaultClip is automatically set.
 SWEP.ExtendedClipSize = 30
 SWEP.ReducedClipSize = 10
 
-SWEP.Recoil = 0.6
-SWEP.RecoilSide = 0.3
+SWEP.Recoil = 0.8
+SWEP.RecoilSide = 0.5
 SWEP.RecoilRise = 0.6
 
 SWEP.Delay = 60 / 950 -- 60 / RPM.
@@ -66,8 +66,8 @@ SWEP.Firemodes = {
 SWEP.NPCWeaponType = {"weapon_pistol", "weapon_smg1"}
 SWEP.NPCWeight = 125
 
-SWEP.AccuracyMOA = 18 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
-SWEP.HipDispersion = 150 -- inaccuracy added by hip firing.
+SWEP.AccuracyMOA = 25 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.HipDispersion = 350 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 200
 
 SWEP.Primary.Ammo = "pistol" -- what ammo type the gun uses

@@ -33,9 +33,10 @@ SWEP.ViewModel = "models/weapons/arccw/c_dod_m1911.mdl"
 SWEP.WorldModel = "models/weapons/arccw/w_dod_m1911.mdl"
 SWEP.ViewModelFOV = 54
 
-SWEP.Damage = 40
-SWEP.DamageMin = 30 -- damage done at maximum range
-SWEP.Range = 50 -- in METRES
+SWEP.Damage = 45
+SWEP.DamageMin = 40 -- damage done at maximum range
+SWEP.Range = 64 -- in METRES
+SWEP.RangeMin= 32 -- in METRES
 SWEP.Penetration = 3
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
@@ -53,9 +54,9 @@ SWEP.Primary.ClipSize = 7 -- DefaultClip is automatically set.
 SWEP.ExtendedClipSize = 9
 SWEP.ReducedClipSize = 6
 
-SWEP.Recoil = 1.25
-SWEP.RecoilSide = 0.75
-SWEP.RecoilRise = 1.25
+SWEP.Recoil = 1
+SWEP.RecoilSide = 0.5
+SWEP.RecoilRise = 1
 
 SWEP.Delay = 60 / 500 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
