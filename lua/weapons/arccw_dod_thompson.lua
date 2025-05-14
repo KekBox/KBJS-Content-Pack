@@ -258,7 +258,7 @@ SWEP.Attachments = {
         PrintName = "Stock",
         Slot = "dod_thompson_stock",
         DefaultAttName = "No Stock",
-        --Installed = "dod_thompson_stock",
+        Installed = "dod_thompson_stock",
         InstalledEles = {"stock"},
         FreeSlot = true,
     },
