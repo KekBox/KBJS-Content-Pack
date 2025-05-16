@@ -27,11 +27,11 @@ SWEP.ViewModel = "models/weapons/arccw/c_dod_k98.mdl"
 SWEP.WorldModel = "models/weapons/arccw/w_dod_k98.mdl"
 SWEP.ViewModelFOV = 56
 
-SWEP.Damage = 78
-SWEP.DamageMin = 83.4 -- damage done at maximum range
+SWEP.Damage = 116
+SWEP.DamageMin = 124 -- damage done at maximum range
 SWEP.Range = 64 -- in METRES
 SWEP.RangeMin= 32 -- in METRES
-SWEP.Penetration = 70
+SWEP.Penetration = 80
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
 SWEP.MuzzleVelocity = 1500 -- projectile or phys bullet muzzle velocity
@@ -69,7 +69,7 @@ SWEP.ShotgunReload = true
 
 SWEP.AccuracyMOA = 1 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 400 -- inaccuracy added by hip firing.
-SWEP.MoveDispersion = 120
+SWEP.MoveDispersion = 100
 
 SWEP.Primary.Ammo = "ar2" -- what ammo type the gun uses
 SWEP.MagID = "k98" -- the magazine pool this gun draws from

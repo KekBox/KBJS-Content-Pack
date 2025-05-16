@@ -30,7 +30,7 @@ SWEP.Damage = 40
 SWEP.DamageMin = 35 -- damage done at maximum range
 SWEP.Range = 64 -- in METRES
 SWEP.RangeMin= 32 -- in METRES
-SWEP.Penetration = 3
+SWEP.Penetration = 10
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
 SWEP.MuzzleVelocity = 320 -- projectile or phys bullet muzzle velocity
@@ -64,7 +64,7 @@ SWEP.NPCWeight = 105
 
 SWEP.AccuracyMOA = 4 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 200 -- inaccuracy added by hip firing.
-SWEP.MoveDispersion = 250
+SWEP.MoveDispersion = 100
 
 SWEP.Primary.Ammo = "pistol" -- what ammo type the gun uses
 SWEP.MagID = "wp38" -- the magazine pool this gun draws from

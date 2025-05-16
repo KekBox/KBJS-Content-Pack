@@ -26,11 +26,11 @@ SWEP.ViewModel = "models/weapons/arccw/c_dod_stg44.mdl"
 SWEP.WorldModel = "models/weapons/arccw/w_dod_stg44.mdl"
 SWEP.ViewModelFOV = 55
 
-SWEP.Damage = 50
-SWEP.DamageMin = 55 -- damage done at maximum range
+SWEP.Damage = 56
+SWEP.DamageMin = 64 -- damage done at maximum range
 SWEP.Range = 64 -- in METRES
 SWEP.RangeMin= 32 -- in METRES
-SWEP.Penetration = 50
+SWEP.Penetration = 30
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
 SWEP.MuzzleVelocity = 1100 -- projectile or phys bullet muzzle velocity
@@ -68,7 +68,7 @@ SWEP.NPCWeight = 200
 
 SWEP.AccuracyMOA = 3 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 300 -- inaccuracy added by hip firing.
-SWEP.MoveDispersion = 150
+SWEP.MoveDispersion = 100
 
 SWEP.Primary.Ammo = "ar2" -- what ammo type the gun uses
 SWEP.MagID = "stg44" -- the magazine pool this gun draws from

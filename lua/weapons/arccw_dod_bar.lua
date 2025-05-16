@@ -25,11 +25,11 @@ SWEP.ViewModel = "models/weapons/arccw/c_dod_bar.mdl"
 SWEP.WorldModel = "models/weapons/arccw/w_dod_bar.mdl"
 SWEP.ViewModelFOV = 54
 
-SWEP.Damage = 82
-SWEP.DamageMin =92 -- damage done at maximum range
+SWEP.Damage = 110
+SWEP.DamageMin =118 -- damage done at maximum range
 SWEP.Range = 64 -- in METRES
 SWEP.RangeMin= 32 -- in METRES
-SWEP.Penetration = 70
+SWEP.Penetration = 75
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
 SWEP.MuzzleVelocity = 1100 -- projectile or phys bullet muzzle velocity
@@ -76,7 +76,7 @@ SWEP.NPCWeight = 100
 
 SWEP.AccuracyMOA = 2 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 400 -- inaccuracy added by hip firing.
-SWEP.MoveDispersion = 150
+SWEP.MoveDispersion = 100
 
 SWEP.Primary.Ammo = "ar2" -- what ammo type the gun uses
 SWEP.MagID = "bar" -- the magazine pool this gun draws from

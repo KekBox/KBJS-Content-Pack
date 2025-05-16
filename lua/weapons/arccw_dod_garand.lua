@@ -28,11 +28,11 @@ SWEP.ViewModelFOV = 56
 
 SWEP.DefaultBodygroups = "0000000000"
 
-SWEP.Damage = 82
-SWEP.DamageMin = 92 -- damage done at maximum range
+SWEP.Damage = 110
+SWEP.DamageMin = 118 -- damage done at maximum range
 SWEP.Range = 64 -- in METRES
 SWEP.RangeMin= 32 -- in METRES
-SWEP.Penetration = 70
+SWEP.Penetration = 75
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
 SWEP.MuzzleVelocity = 1200 -- projectile or phys bullet muzzle velocity
@@ -65,9 +65,9 @@ SWEP.Firemodes = {
 SWEP.NPCWeaponType = "weapon_ar2"
 SWEP.NPCWeight = 55
 
-SWEP.AccuracyMOA = 1.5 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
-SWEP.HipDispersion = 500 -- inaccuracy added by hip firing.
-SWEP.MoveDispersion = 150
+SWEP.AccuracyMOA = 1 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.HipDispersion = 400 -- inaccuracy added by hip firing.
+SWEP.MoveDispersion = 100
 
 SWEP.Primary.Ammo = "ar2" -- what ammo type the gun uses
 SWEP.MagID = "garand" -- the magazine pool this gun draws from

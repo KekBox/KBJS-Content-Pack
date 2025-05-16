@@ -27,8 +27,8 @@ SWEP.ViewModel = "models/weapons/arccw/c_dod_m1carbine.mdl"
 SWEP.WorldModel = "models/weapons/arccw/w_dod_m1carbine.mdl"
 SWEP.ViewModelFOV = 54
 
-SWEP.Damage = 50
-SWEP.DamageMin = 45 -- damage done at maximum range
+SWEP.Damage = 58
+SWEP.DamageMin = 50 -- damage done at maximum range
 SWEP.Range = 64 -- in METRES
 SWEP.RangeMin= 32 -- in METRES
 SWEP.Penetration = 50
@@ -46,9 +46,9 @@ SWEP.Primary.ClipSize = 15 -- DefaultClip is automatically set.
 SWEP.ExtendedClipSize = 30
 SWEP.ReducedClipSize = 10
 
-SWEP.Recoil = 0.6
-SWEP.RecoilSide = 0.4
-SWEP.RecoilRise = 0.4
+SWEP.Recoil = 0.5
+SWEP.RecoilSide = 0.3
+SWEP.RecoilRise = 0.3
 
 SWEP.Delay = 60 / 700 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
@@ -64,14 +64,14 @@ SWEP.Firemodes = {
 SWEP.NPCWeaponType = "weapon_smg1"
 SWEP.NPCWeight = 170
 
-SWEP.AccuracyMOA = 3 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
-SWEP.HipDispersion = 250 -- inaccuracy added by hip firing.
-SWEP.MoveDispersion = 120
+SWEP.AccuracyMOA = 4 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.HipDispersion = 200 -- inaccuracy added by hip firing.
+SWEP.MoveDispersion = 100
 
 SWEP.Primary.Ammo = "smg1" -- what ammo type the gun uses
 SWEP.MagID = "m1carbine" -- the magazine pool this gun draws from
 
-SWEP.ShootVol = 115 -- volume of shoot sound
+SWEP.ShootVol = 125 -- volume of shoot sound
 SWEP.ShootPitch = 100 -- pitch of shoot sound
 
 SWEP.ShootSound = "ArcCW_DOD_M1Carbine.Shoot"

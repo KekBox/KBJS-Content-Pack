@@ -31,7 +31,7 @@ SWEP.ViewModelFOV = 65
 SWEP.Damage = 40
 SWEP.DamageMin = 35 -- damage done at maximum range
 SWEP.Range = 32 -- in METRES
-SWEP.Penetration = 4
+SWEP.Penetration = 5
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
 SWEP.MuzzleVelocity = 350 -- projectile or phys bullet muzzle velocity
@@ -48,9 +48,9 @@ SWEP.Primary.ClipSize = 20 -- DefaultClip is automatically set.
 SWEP.ExtendedClipSize = 30
 SWEP.ReducedClipSize = 10
 
-SWEP.Recoil = 0.8
-SWEP.RecoilSide = 0.5
-SWEP.RecoilRise = 0.6
+SWEP.Recoil = 0.6
+SWEP.RecoilSide = 0.4
+SWEP.RecoilRise = 0.4
 
 SWEP.Delay = 60 / 950 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
@@ -67,13 +67,13 @@ SWEP.NPCWeaponType = {"weapon_pistol", "weapon_smg1"}
 SWEP.NPCWeight = 125
 
 SWEP.AccuracyMOA = 25 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
-SWEP.HipDispersion = 350 -- inaccuracy added by hip firing.
-SWEP.MoveDispersion = 200
+SWEP.HipDispersion = 200 -- inaccuracy added by hip firing.
+SWEP.MoveDispersion = 100
 
 SWEP.Primary.Ammo = "pistol" -- what ammo type the gun uses
 SWEP.MagID = "m96" -- the magazine pool this gun draws from
 
-SWEP.ShootVol = 110 -- volume of shoot sound
+SWEP.ShootVol = 125 -- volume of shoot sound
 SWEP.ShootPitch = 100 -- pitch of shoot sound
 
 SWEP.ShootSound = "ArcCW_DOD_C96.Shoot"
@@ -152,18 +152,6 @@ SWEP.AttachmentElements = {
 }
 
 SWEP.Attachments = {
-    { --1
-        PrintName = "Optic", -- print name
-        DefaultAttName = "Iron Sights",
-        Slot = {"", ""}, -- what kind of attachments can fit here, can be string or table
-        Bone = "ValveBiped.c96_base", -- relevant bone any attachments will be mostly referring to
-        Offset = {
-            vpos = Vector(-4.60, 0, 2.559), -- offset that the attachment will be relative to the bone
-            vang = Angle(90, 0, 0),
-            wpos = Vector(4.692, 0.802, -4.115),
-            wang = Angle(170, 180, 0)
-        },
-    },
     { --2
         PrintName = "Muzzle",
         DefaultAttName = "Standard Muzzle",
@@ -179,19 +167,6 @@ SWEP.Attachments = {
         },
     },
     { --3
-        PrintName = "Underbarrel",
-        Slot = {"foregrip"},
-        Bone = "ValveBiped.c96_base",
-        WMScale = Vector(0.75, 0.75, 0.75),
-        Offset = {
-            vpos = Vector(-3.8, 0, 9),
-            vang = Angle(90, 0, 0),
-            wpos = Vector(10.937, 0.699, -4.401),
-            wang = Angle(170, 180, 0),
-        },
-        MergeSlots = {4},
-    },
-    { --3
         Hidden = true,
         Slot = {"style_pistol"},
         Bone = "ValveBiped.c96_base",
@@ -202,34 +177,10 @@ SWEP.Attachments = {
             wang = Angle(170, 180, 0),
         },
     },
-    { --4
-        PrintName = "Tactical",
-        Slot = "",
-        Bone = "ValveBiped.c96_base",
-        Offset = {
-            vpos = Vector(-3.2, 0.52, 5.5),
-            vang = Angle(90, 0, -90),
-            wpos = Vector(7.25, 0.4, -3),
-            wang = Angle(-10, 0, 90),
-        },
-    },
     { --6
         PrintName = "Stock",
         Slot = "dod_c96_stock",
         InstalledEles = {"stock"},
-    },
-    { --7
-        PrintName = "Fire Group",
-        Slot = {"fcg", "dod_fcg"},
-        DefaultAttName = "Standard FCG"
-    },
-    { --8
-        PrintName = "Ammo Type",
-        Slot = "ammo_bullet"
-    },
-    { --9
-        PrintName = "Perk",
-        Slot = ""
     },
 }
 
