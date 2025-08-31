@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	$basetexture "models/weapons/xiandagger/scb"
+	$bumpmap "null-bumpmap"
+	$phongexponenttexture "color/white"
+	
+	$phong "1"
+	$phongboost "64"
+	$phongexponent "45"
+	$phongfresnelranges "[0.5 0.75 1.00]"
+	$phongalbedotint "1"
+	
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask "1"
+	$envmapfresnel "1"
+	$envmaptint "[0.2 0.14 0.06]"		
+}

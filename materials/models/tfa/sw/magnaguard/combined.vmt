@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	$basetexture "models/tfa/sw/magnaguard/combinedcloth"
+	$color2 "[0.8 0.8 0.8]"
+	$bumpmap "null-bumpmap"
+	$phongexponenttexture "models/tfa/sw/magnaguard/fexp"
+	
+	$phong "1"
+	$phongexponent "5"
+	$phongboost "3"
+	$phongfresnelranges "[0.25 0.65 1.0]"
+	$phongalbedotint "1"
+	
+	$selfillum "1"
+}

@@ -1,0 +1,12 @@
+Patch
+{
+include "materials/models/weapons/nmrih_melee_shared.vmt"
+insert
+{
+$baseTexture "models\weapons\me_machete\v_me_machete_bloodc_d"
+$bumpmap "models\weapons\me_machete\v_me_machete_n"
+
+$surfaceprop "metal"
+	"keywords" "machete"
+}
+}

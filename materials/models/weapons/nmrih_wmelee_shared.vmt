@@ -1,0 +1,37 @@
+VertexLitGeneric
+{
+	//"$selfillum" "1"
+	"$halflambert" "1"
+	"$nodecal" "1"
+
+	"$phong"		"1"
+	"$phongboost"	"3"
+	"$phongfresnelranges"	"[0.5 1.0 2.0]"
+	//"$phongexponent" "0"
+
+	//"$rimlight" "1"
+	//"$rimlightexponent" "2"
+	//"$rimlightboost" "1"
+	//"$rimmask" "1"
+
+	$detail "blood_melee"
+	$detailblendmode 2
+	$detailblendfactor 0.0
+	$detailtexturetransform "center .5 .5 scale 2 2 rotate 30 translate 0 0"
+	$detailrotation	0
+	$detailscale 2.0
+
+	"Proxies"
+	{
+		"BloodyTexture"
+		{
+			"detailcount"	"3"
+			"source"		"weapon"
+		}
+		"TextureTransform"
+		{
+			"resultVar"	"$detailtexturetransform"
+			"rotateVar"	"$detailrotation"
+		}
+	}
+}

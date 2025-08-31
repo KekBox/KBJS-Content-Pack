@@ -1,0 +1,15 @@
+ "VertexLitGeneric"
+{
+//Base
+"$BaseTexture"  "models/hitman6/FireAxe/firexms_diff"
+
+//Detail
+"$detail"  "models/hitman6/FireAxe/fireaxe_detail"
+"$detailblendmode" "2"
+"$detailscale"	"1"
+"$detailblendfactor"	".59"
+
+//Other
+"$Translucent"	"1"
+"$HalfLambert"      "1"
+}

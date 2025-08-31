@@ -1,0 +1,36 @@
+ "VertexLitGeneric"
+{
+//Base
+"$BaseTexture"  "models/hitman6/SappersAxe/sapperaxe_diff"
+"$BumpMap"  "models/hitman6/SappersAxe/sapperaxe_norm"
+
+//Detail
+"$detail"  "models/hitman6/SappersAxe/sapperaxe_detail"
+"$detailblendmode" "2"
+"$detailscale"	"1"
+"$detailblendfactor"	".59"
+
+//Phong
+"$Phong"  "1"
+"$PhongBoost"  "0.10"
+"$PhongExponent"  "25"
+"$PhongFresnelRanges" "[0.3 0.5 1]"
+"$PhongAlbedoTint"           "1"
+"$NormalmapAlphaPhongMask"   "1"
+
+//Rimlight
+"$Rimlight"      "1"
+"$RimMask"      "1"
+"$RimlightExponent"          "20"
+"$RimlightBoost"             "0.25"
+
+//Other
+"$Model"                     "1"
+"$HalfLambert"      "1"
+"$NoDecal"      "0"
+"$AmbientOcclusion"      "1"
+"$NoCull"      "0"
+"$SurfaceProp"      "plastic_box"
+"$BlendTintByBaseAlpha"      "1"
+"$Color2" "[1 1 1]"//You can change model color here [RGB]
+}

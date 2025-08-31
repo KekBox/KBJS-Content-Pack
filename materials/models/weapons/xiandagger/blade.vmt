@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	$basetexture "models/weapons/xiandagger/d"
+	$color2 "[0.7 0.7 0.7]"
+	$blendtintbybasealpha "1"
+	$bumpmap "models/weapons/xiandagger/n"
+	$phongexponenttexture "models/weapons/xiandagger/e"
+	
+	$phong "1"
+	$phongboost "64"
+	$phongfresnelranges "[0.5 0.75 1.00]"
+	$phongalbedotint "1"
+	
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask "1"
+	$envmapfresnel "1"
+	$envmaptint "[0.15 0.15 0.15]"		
+}

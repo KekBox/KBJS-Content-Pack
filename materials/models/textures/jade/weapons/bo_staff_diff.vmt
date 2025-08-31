@@ -1,0 +1,23 @@
+"vertexlitGeneric"
+{
+	"$basetexture" "models/textures/Jade/weapons/bo_staff_diff"
+
+                   "$bumpmap" "models/textures/Jade/weapons/bo_staff_nm"
+$model 1
+$AmbientOcclusion 1
+
+"$phongexponent" "1"    
+
+"$phong" "1"
+	"$phongboost"	"2.3"     
+              //  "$phongtint" "[0.24 0.32 .37]" 
+	"$phongfresnelranges"	"[.10 .25 .25]"
+
+"$rimlight" "1" 
+"$rimlightexponent" "2" 
+"$rimlightboost" "0.5" 
+"$rimmask" 1
+
+
+
+}
