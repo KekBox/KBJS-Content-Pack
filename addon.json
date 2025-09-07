@@ -1,0 +1,5 @@
+{
+	"title": "KBJS Server Content",
+	"type": "gamemode",
+	"ignore": ["README.md", ".git", ".git.*"]
+}
