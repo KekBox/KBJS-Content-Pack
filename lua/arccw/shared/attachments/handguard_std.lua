@@ -1,0 +1,1 @@
+att.PrintName="Standard handguard"att.Description="Zenit handguard for PKM/PKP, compatible with standard bipod and additional accessories."att.Icon=Material("entities/eft_pkm_attachments/hgz.png")att.SortOrder=200 att.Slot="pkm_handguard"att.Free=true att.AutoStats=true att.ActivateElements={"handguard_std"}att.Mult_Recoil=.95

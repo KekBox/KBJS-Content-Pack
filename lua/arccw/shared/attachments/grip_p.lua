@@ -1,0 +1,1 @@
+att.PrintName="Современная пистолетная рукоятка"att.Description="Эргономичная рукоять для лучшего удержания и более лёгкая, чем предыдущая модель."att.Icon=Material("entities/eft_pkm_attachments/pgb.png")att.SortOrder=401 att.Slot="pkp_grip"att.Free=true att.ActivateElements={"grip_p"}att.AutoStats=true att.Mult_Recoil=.85 att.Mult_Sway=.8 att.Mult_HipDispersion=.9

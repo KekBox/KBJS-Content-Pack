@@ -1,0 +1,1 @@
+att.PrintName="Folded bipod"att.Description="Recoil impulse reduction achieved through added weight at the front section of the barrel."att.Icon=Material("entities/eft_pkm_attachments/bipod.png")att.SortOrder=1000 att.Slot="pkm_bipod"att.Free=true att.ActivateElements={"bipod_folded"}att.AutoStats=true att.Mult_Recoil=.95
