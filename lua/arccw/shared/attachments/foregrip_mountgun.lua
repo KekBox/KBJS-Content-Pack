@@ -3,7 +3,7 @@ att.Icon = Material("entities/att/mountgun.png")
 att.Bipod_Icon = Material("entities/att/mountgun.png")
 att.Description = [[Rest your weapon on the ground or nearest ledge. Improves weapon performance by decreasing recoil and increasing accuracy whilst mounted, but not as much as a proper bipod. Still, it's better than nothing when trying to make your shots count.]]
 att.SortOrder = 10
-
+att.Free = true
 att.Desc_Pros = {
     "No bipod to set up",
     "No downsides",
