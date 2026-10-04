@@ -1,8 +1,0 @@
- "VertexLitGeneric"
-{
-//Base
-"$BaseTexture"  "models/hitman6/FireAxe/inv"
-
-//Other
-"$Translucent"	"1"
-}
